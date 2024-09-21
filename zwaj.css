@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lalezar&family=Readex+Pro:wght,HEXP@160..700,27&family=Reem+Kufi:wght@400..700&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lalezar&family=Rakkas&family=Readex+Pro:wght,HEXP@160..700,27&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hrml {
+  font-size: 20px;
+  
+}
+body {
+  background-color: #27282c;
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  font-family: "Reem Kufi", sans-serif;
+}
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Reem Kufi", sans-serif;
+  
+}
+span {
+  color: #C6AEC7;
+}
+h2{
+  font-family: "Rubik", sans-serif;
+  width: 88%;
+  color: #fff;
+}
+p {
+  color: #C6AEC7;
+  margin: 1rem;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 1rem;
+}
+p1 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+  
+
+
+
+}
+p200 {
+  color: #6fcc;
+  width: 30%;
+  direction:10px ;
+  white-space:10px ;
+  text-indent:10px ;
+  font-kerning: 10px;
+  writing-mode:10px;
+  
+}
+h3{
+  color: #C6A777;
+  margin: 1rem;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 1rem;
+  
+}
+span {
+  margin: 1rem;
+  
+}
+p2 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+
+}
+p3 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+
+}
+p4 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+
+}
+p5  {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p6 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+
+}
+p7  {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+
+}
+p8  {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+
+}
+p9  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p10  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p11  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p12  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p13  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p14  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p15  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p16  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p17  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p18  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p19  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p20  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p21  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p22  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+
+p23  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p24  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p25  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p26  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p27  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+
+p28  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p29  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p30  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p31  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+p32  {color: #fff;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.gg { 
+  margin: 2rem;
+  color: #27282c;
+  width: 120px;
+  margin-right: 120px;
+  margin-top: 2rem;
+  
+}
+h5 {
+  color: #fff;
+  font-size: 1.0rem;
+  font-family: "Reem Kufi", sans-serif;
+margin: 3rem;
+text-align-last: center;
+
+
+
+}

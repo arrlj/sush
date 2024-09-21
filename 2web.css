@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lalezar&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hrml {
+  font-size: 10px;
+  
+}
+body {
+  background-color: #ffccbc;
+  font-family: "Amiri", serif;
+}
+main {
+  max-width: 1366px;
+  margin: 0 auto;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+nav .logo {
+  font-size: 3rem;
+  color: #f0768b;
+  
+}
+nav .nav-items {
+  list-style-type: none;
+  display: flex;
+}
+nav .nav-items .nav-item {
+  padding-left: 2rem;
+}
+.nav-item .nav-link {
+  text-decoration: none;
+  color: #fffff;
+  
+}
+.nav-item .nav-link:hover {
+  color: #fffff;
+  
+}
+.cta {
+  font-family: inherit;
+  padding: 0.75rem 1rem;
+  border: none;
+  color: #fffff;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.cta.dark {
+  background-color: #ffcc;
+}
+.cta .darken {
+  background-color: #fff236;
+  
+}
+
+/*الاساس*/
+.hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  color: 	#6D6968;
+  
+}
+.hero h1 span {
+  color: black;
+}
+/*ام المربع هه*/
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features h3 {
+  color: black;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+.features h6 {
+  color: #6D6968;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+.feature {
+  background-color: 	#fcbba7;
+  display: flex;
+  border-radius: 3rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 10px rgb(255, 120, 71);
+  
+}
+.feature .content {
+  padding: 4rem;
+  flex:1;
+}
+.feature .content i {
+  color: #f0768b;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.feature .content h2 {
+  color:black;
+  margin-bottom: 2rem;
+}
+.feature .content p {
+  color: #4d45ba;
+  font-size: 1.2rem;
+  width: 80%;
+  line-height: 2;
+}
+/*بطايق*/
+.details {
+  margin-bottom: 10rem ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+  
+}
+.detalls h2 {
+  color: #4d45ba;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  
+}
+.detalls h6 {
+  color: #fffff;
+  font-size: 1rem;
+}
+.details-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.detail {
+  background-color: #fcbba7;
+  padding: 3rem;
+  border-radius: 2rem;
+  color: black;
+  box-shadow: 10px 10px 10px rgb(255, 120, 71);
+  margin-bottom: 2rem;
+}
+.detail i {
+  color: #E78A61;
+  font-size: 1.5rem ;
+  margin-bottom: 2rem;
+}
+.detail h3 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+.detail p {
+  color: #F48;
+  
+}
+/*مال صانع*/
+
+footer {
+  background-color: #f5bba9;
+  min-height: 25vh;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #E78;
+  width :100%;
+  text-align: center;
+}
+footer p {
+  color: #314;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  
+}
+footer i {
+  color:#321 ;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+/*احجام*/
+@media screen and (max-width:1450px ) {
+  main {
+    max-width :1024px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  main {
+    max-width: 768px;
+  }
+  
+    
+  
+  .details-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    max-width: 600px;
+  }
+  .details-list {
+    grid-template-columns: 1fr;
+  }
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  main {
+    margin: 2rem;
+    text-align: center;
+  }
+  .features .content p {
+    width: 110%;
+  }
+  .hero h1 {
+    width: 80%;
+  }
+}
